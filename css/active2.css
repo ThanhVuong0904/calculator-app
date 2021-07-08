@@ -1,0 +1,63 @@
+:root{
+    --very-dark-violet-main-background: hsl(268, 75%, 9%);
+    --very-dark-violet-toggle-background-keypad-background-screen-background: hsl(268, 71%, 12%);
+    --dark-violet-key-background: hsl(281, 89%, 26%);
+    --vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+
+    --pure-cyan-key-background-toggle: hsl(176, 100%, 44%);
+    --soft-cyan-key-shadow: hsl(177, 92%, 70%);
+
+    --very-dark-violet-key-background: hsl(268, 47%, 21%);
+    --dark-magenta-key-shadow: hsl(290, 70%, 36%);
+
+    --light-yellow: hsl(52, 100%, 62%);
+    --very-dark-blue: hsl(198, 20%, 13%)
+}
+
+
+body.active2 {
+    background-color: var(--very-dark-violet-main-background);
+}
+body.active2 h1,
+body.active2 p,
+body.active2 span{
+    color: var(--light-yellow);
+}
+
+body.active2 .reset,
+body.active2 .del {
+    color: white;
+    background-color: var(--dark-violet-key-background) !important;
+    box-shadow: 0px 3px 0px 0px var(--vivid-magenta-key-shadow) !important;
+    
+}
+
+.active2 .equal{
+    color: black !important;
+    background-color: var(--pure-cyan-key-background-toggle) !important;
+    box-shadow: 0 3px 0 0 var(--soft-cyan-key-shadow) !important;
+}
+
+.active2 .bg-num{
+    background-color: var(--very-dark-violet-toggle-background-keypad-background-screen-background);
+}
+
+.active2 .circle{
+    background-color: var(--pure-cyan-key-background-toggle);
+    box-shadow: var(--soft-cyan-key-shadow);
+}
+
+.active2 #output{
+    background-color: var(--very-dark-violet-toggle-background-keypad-background-screen-background);
+    color: white;
+}
+
+.active2 .calculator-body{
+    background-color: var(--very-dark-violet-toggle-background-keypad-background-screen-background);
+}
+
+.active2 .calculator-body button{
+    color: var(--light-yellow);
+    background-color: var(--very-dark-violet-key-background);
+    box-shadow: 0 3px 0 0 var(--dark-magenta-key-shadow);
+}
